@@ -1,0 +1,95 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Playlist container */
+.playlist {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 450px;
+    width: 100%;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+/* Playlist hover effect */
+.playlist:hover {
+    transform: scale(1.02);
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #343a40;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Unordered list for songs */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* List item styling */
+li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Remove border from the last item */
+li:last-child {
+    border-bottom: none;
+}
+
+/* Hover effect on list items */
+li:hover {
+    background-color: #f8f9fa;
+}
+
+/* Song title styling */
+.title {
+    font-weight: bold;
+    color: #212529;
+    font-size: 16px;
+}
+
+/* Artist styling */
+.artist {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+/* Optional: Add styling for other content (e.g., play button) */
+.play-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+/* Play button hover */
+.play-button:hover {
+    background-color: #0056b3;
+}
